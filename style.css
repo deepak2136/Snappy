@@ -92,7 +92,7 @@ this is a chat page.
     border-radius: 0px;
 }
 
-.massage-area {
+.message-area {
   background: azure;
   position: fixed;
   left: 30%;
@@ -114,23 +114,25 @@ this is a chat page.
   color: darkblue;
 }
 
-.massages {
+.messages {
   background: #A2F9EB;
   height: 85%;
   overflow: auto; /* for scroll bar */
   padding: 10px;
 }
 
-.massage {
+.message {
   background: #FEFFAA;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 12px;
   color: black;
+  /*float: right;*/
 }
 
-.massage.by-user {
+.message.by-user {
   background: #B9BA79;
+  /*float: left;*/
 }
 
 .chat-form {
@@ -142,7 +144,7 @@ this is a chat page.
   padding: 10px;
 }
 
-.chat-massage {
+.chat-message {
   padding: 10px;
   border: solid 1px lightgray;
   border-radius: 7px;
