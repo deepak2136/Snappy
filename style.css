@@ -1,14 +1,55 @@
 .button {
-  height: 50px;
-  width: 200px;
-  padding: 20px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: white;
+  color: blueviolet;
 }
 
 html, body {
     height: 100%;
     box-sizing: border-box;
+    font-family: "Alegreya";
+    font-size: 14px;
 }
 
 *, *:before, *:after {  /* select every element in page */
     box-sizing: inherit;
+}
+
+body {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  width : 500px;
+  margin: auto;
+  position: relative;
+  top: 50%;                          /* vertically align elemnt */
+  transform: translateY(-50%);    /* vertically align elemnt manually calculate pixels*/
+}
+
+.logo {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+
+.tagline {
+  font-size: 20px;
+  color: white;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
