@@ -15,7 +15,7 @@ button:hover {
 html, body {
     height: 100%;
     box-sizing: border-box;
-    font-family: "Alegreya";
+    font-family: "Roboto Slab";
     font-size: 14px;
 }
 
@@ -23,7 +23,7 @@ html, body {
     box-sizing: inherit;
 }
 
-body {
+body.homepage {
   background-image: url("bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,4 +52,100 @@ body {
 p {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+/*
+this is a chat page.
+*/
+
+.member-area {
+  position: fixed;     /* make sure you fixed position otherwise top, bottom not work. */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 30%;
+  background: #4365AB;
+  color: white;
+}
+
+.user-info {
+  background: #060237;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+}
+
+.logout {
+  float: right;
+}
+
+.member {
+  padding: 10px;
+  border-bottom: solid 1px white;
+  border-radius: 8px;
+}
+
+.member:hover {
+  background: #CDB6B4;
+  color: darkblue;
+  cursor: pointer;
+    border-radius: 0px;
+}
+
+.massage-area {
+  background: azure;
+  position: fixed;
+  left: 30%;
+  top: 0;
+  bottom: 0;
+  width: 70%;
+}
+
+.chat-info {
+  background-color: white;
+  padding: 10px;
+  color: black;
+    font-weight: bold;
+}
+
+.member.active {
+  font-weight: bolder;
+  background-color: azure;
+  color: darkblue;
+}
+
+.massages {
+  background: #A2F9EB;
+  height: 85%;
+  overflow: auto; /* for scroll bar */
+  padding: 10px;
+}
+
+.massage {
+  background: #FEFFAA;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  color: black;
+}
+
+.massage.by-user {
+  background: #B9BA79;
+}
+
+.chat-form {
+  position: fixed;
+  left: 30%;
+  bottom: 0;
+  width: 70%;
+  background: #B1C4BE;
+  padding: 10px;
+}
+
+.chat-massage {
+  padding: 10px;
+  border: solid 1px lightgray;
+  border-radius: 7px;
+  display: block;
+  width: 100%;
 }
