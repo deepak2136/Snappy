@@ -1,0 +1,14 @@
+.button {
+  height: 50px;
+  width: 200px;
+  padding: 20px;
+}
+
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {  /* select every element in page */
+    box-sizing: inherit;
+}
