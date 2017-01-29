@@ -118,7 +118,7 @@ this is a chat page.
   background: #A2F9EB;
   height: 85%;
   overflow: auto; /* for scroll bar */
-  padding: 10px;
+  padding: 10px; /* check */
 }
 
 .message {
@@ -127,12 +127,13 @@ this is a chat page.
   margin-bottom: 10px;
   border-radius: 12px;
   color: black;
-  /*float: right;*/
+  float: right;
+  clear: both;
 }
 
 .message.by-user {
   background: #B9BA79;
-  /*float: left;*/
+  float: left;
 }
 
 .chat-form {
