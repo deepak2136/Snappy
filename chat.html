@@ -10,8 +10,8 @@
 <body>
 
 <div class="member-area">
-  <div class="user-info">
-    deepak prajapati
+  <div class="user-info" >
+    <span id="username"> </span>
     <span class="logout">Log out</spna>
   </div>
 
@@ -104,6 +104,22 @@
   </div>
 </div>
 
+
+<script src="https://www.gstatic.com/firebasejs/3.6.7/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDhewOC32ZijfeJXdpsVZTQEuCa8wy7jyM",
+    authDomain: "snappychat-31a05.firebaseapp.com",
+    databaseURL: "https://snappychat-31a05.firebaseio.com",
+    storageBucket: "snappychat-31a05.appspot.com",
+    messagingSenderId: "878978392786"
+  };
+  firebase.initializeApp(config);
+</script>
+<script type="text/javascript" src="functions.js"> </script>
+<script type="text/javascript" src="app.js"> </script>
+<script type="text/javascript" src="chat.js"> </script>
 
 </body>
 </html>

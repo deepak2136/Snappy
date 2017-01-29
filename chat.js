@@ -1,0 +1,3 @@
+ifUserIsLoggedIn(function(){
+  updateUserData();
+});
